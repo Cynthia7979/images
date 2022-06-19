@@ -1,0 +1,6 @@
+Error while calling callback for alarm timer ScenarioManager Night start. Error: System.NullReferenceException: Object reference not set to an instance of an object
+  at Assets.Scripts.Components.Combat.LevelAttackScheduler.FindBestPathCompletePoint (UnityEngine.Transform transformToUse) [0x0002c] in <ff0d14ef9a7c4ea7a75009bc330f57f4>:0 
+  at Assets.Scripts.Components.Combat.LevelAttackScheduler.TrySpawnScenario () [0x0006b] in <ff0d14ef9a7c4ea7a75009bc330f57f4>:0 
+  at Assets.Scripts.Components.Scenarios.LevelEventScheduler.OnNight (System.Boolean allowSpawning) [0x00018] in <ff0d14ef9a7c4ea7a75009bc330f57f4>:0 
+  at Assets.Scripts.Service.ScenarioManager.OnNightAlarm () [0x000ae] in <ff0d14ef9a7c4ea7a75009bc330f57f4>:0 
+  at Assets.Scripts.Service.AlarmService.Update () [0x000a1] in <ff0d14ef9a7c4ea7a75009bc330f57f4>:0 <br><br>
